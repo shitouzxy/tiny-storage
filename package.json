@@ -1,7 +1,7 @@
 {
   "name": "my-ts-vue",
   "private": true,
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "Sean.shi",
   "main": "src/libs/index.ts",
   "scripts": {
