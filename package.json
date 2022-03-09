@@ -1,9 +1,9 @@
 {
-  "name": "my-ts-vue",
+  "name": "tinyStorage",
   "private": true,
   "version": "0.1.1",
   "author": "Sean.shi",
-  "main": "src/libs/index.ts",
+  "main": "dist/tinyStorage.umd.js",
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
