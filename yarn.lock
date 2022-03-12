@@ -516,6 +516,11 @@ js-stringify@^1.0.2:
   resolved "https://registry.npmmirror.com/js-stringify/-/js-stringify-1.0.2.tgz#1736fddfd9724f28a3682adc6230ae7e4e9679db"
   integrity sha512-rtS5ATOo2Q5k1G+DADISilDA6lv79zIiwFd6CcjuIxGKLFm5C+RLImRscVap9k55i+MOZwgliw+NejvkLuGD5g==
 
+jscookie@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.npmmirror.com/jscookie/-/jscookie-1.1.0.tgz#4b871dc8245f834a3775e1829e5064be979f4e15"
+  integrity sha512-gicBA4BI3iVGPRTtRfWJE+20Oc+JzMR7oP2YiLjbvtDXOlihD5qM7l5hUopvdmqqgMhEuvDa3fsLd+SyGf2/hA==
+
 jsonc-parser@^2.3.0:
   version "2.3.1"
   resolved "https://registry.npmmirror.com/jsonc-parser/-/jsonc-parser-2.3.1.tgz#59549150b133f2efacca48fe9ce1ec0659af2342"

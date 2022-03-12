@@ -1,15 +1,16 @@
 {
-  "name": "tinyStorage",
+  "name": "tiny-storage",
   "private": true,
-  "version": "0.1.1",
+  "version": "0.5.0",
   "author": "Sean.shi",
-  "main": "dist/tinyStorage.umd.js",
+  "main": "dist/tiny-storage.umd.js",
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
     "preview": "vite preview"
   },
   "dependencies": {
+    "jscookie": "^1.1.0",
     "vue": "^3.2.25"
   },
   "devDependencies": {
