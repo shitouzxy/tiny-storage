@@ -1,6 +1,6 @@
 {
   "name": "tiny-storage",
-  "private": true,
+  "private": false,
   "version": "0.5.1",
   "author": "Sean.shi",
   "main": "dist/tiny-storage.umd.js",
