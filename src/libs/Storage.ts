@@ -1,6 +1,6 @@
 
 // const jscookie = require('jscookie');
-import * as jscookie from 'jscookie'
+import cookie from './cookies.js'
 
 type storageData = {
     data: any,
@@ -10,6 +10,8 @@ type storageData = {
 type eventsCenter = {
     [key:string]: Array<Function> | []
 }
+
+const jscookie:any = cookie;
 
 export default class Storage {
     protected _prefix: string = '';
@@ -32,6 +34,7 @@ export default class Storage {
             // this.emit(key, data);
         } else {
             const storageData:storageData = { data };
+
             jscookie.set({
                 name: key,
                 value: JSON.stringify(storageData),
@@ -105,7 +108,7 @@ export default class Storage {
         if(localStorage) {
             localStorage.removeItem(this._prefix + key);
         } else {
-            jscookie.remove(key);
+            jscookie.del(key);
         }
     }
 
